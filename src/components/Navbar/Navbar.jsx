@@ -131,7 +131,56 @@ const Navbar = () => {
 
     ]
 
+    const admission = [
+        {
+            id: 1,
+            href: '/admission/apply-online-instruction',
+            text: 'Apply Online Instruction',
+        },
+        {
+            id: 2,
+            href: '/admission/admission-notice',
+            text: 'Admission Notice',
+        },
+        {
+            id: 3,
+            href: '/admission/program-offering',
+            text: 'Offered Program',
+        },
+        {
+            id: 4,
+            href: '/admission/admission-requirment',
+            text: 'Admission Requirments',
+        },
+        {
+            id: 5,
+            href: '/admission/admission-procedure',
+            text: 'admission Procedure',
+        },
+        {
+            id: 6,
+            href: '/admission/semester-fees',
+            text: 'Semester Fees',
+        },
+        {
+            id: 7,
+            href: '/admission/admission-cancel-policy',
+            text: 'Admission Cancel Policy',
+        },
+    ]
 
+    const research = [
+        {
+            id:1,
+            href:'/research/publications',
+            text:'publications'
+        },
+        {
+            id:2,
+            href:'/research/projects',
+            text:'projects'
+        }
+    ]
 
     const handleMouseEnter = (value) => {
         setIsHovered(true);
@@ -205,8 +254,8 @@ const Navbar = () => {
                         <AiOutlineDown className='' />
                     </button>
 
-                    <ul className={`absolute  text-black w-48 px-2 py-2 mx-auto  rounded-lg shadow-xl
-                    ${navOptions === 1 ? 'block opacity-100' : 'hidden opacity-0'}   
+                    <ul className={`absolute bg-white text-black w-48 px-2 py-2 mx-auto  rounded-lg shadow-xl
+                    ${navOptions === 1 ? 'block opacity-100 z-10' : 'hidden opacity-0'}   
                     transition-opacity duration-300 ease-in-out
                     `}
                     >
@@ -225,7 +274,7 @@ const Navbar = () => {
 
                             {/* regulatoryBodies sub category menus */}
                             <ul className={`${isHoveredSubOption && subOptions === 1 ? 'flex flex-col' : 'hidden'}
-                            absolute -right-[180px] top-3    text-black w-48 px-2 py-2 mx-auto  rounded-lg shadow-xl
+                            absolute -right-[180px] top-3  bg-white  text-black w-48 px-2 py-2 mx-auto  rounded-lg shadow-xl
                             `}>
                                 {
                                     regulatoryBodies.map(item => <Link
@@ -251,7 +300,7 @@ const Navbar = () => {
                             </button>
 
                             <ul className={`${isHoveredSubOption && subOptions === 2 ? 'flex flex-col' : 'hidden'}
-                            absolute -right-[180px] top-14 border text-black w-48 px-2 py-2 mx-auto  rounded-lg shadow-xl
+                            absolute -right-[180px] top-14 border bg-white text-black w-48 px-2 py-2 mx-auto  rounded-lg shadow-xl
                             `}>
                                 {
                                     offices.map(item => <Link
@@ -288,8 +337,8 @@ const Navbar = () => {
                     </button>
 
                     <ul
-                        className={`absolute  text-black  w-96 py-2  rounded-lg shadow-xl
-                    ${isHovered && navOptions === 2 ? 'block opacity-100' : 'hidden opacity-0'}   
+                        className={`absolute bg-white text-black  w-96 py-2  rounded-lg shadow-xl
+                    ${isHovered && navOptions === 2 ? 'block opacity-100 z-10' : 'hidden opacity-0'}   
                     transition-opacity duration-300 ease-in-out
                     `}
                     >
@@ -309,7 +358,7 @@ const Navbar = () => {
                             {/*  */}
 
                             <ul className={`${isHoveredSubOption && subOptions === 3 ? 'flex flex-col' : 'hidden'}
-                            absolute -right-[200px] top-5 border text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
+                            absolute -right-[200px] top-5 border bg-white text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
                             `}>
                                 {
                                     fece.map(item => <Link
@@ -335,7 +384,7 @@ const Navbar = () => {
 
                             {/*  */}
                             <ul className={`${isHoveredSubOption && subOptions === 4 ? 'flex flex-col' : 'hidden'}
-                            absolute -right-[200px] top-20 border text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
+                            absolute -right-[200px] top-20 border bg-white text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
                             `}>
                                 {
                                     fme.map(item => <Link
@@ -351,8 +400,8 @@ const Navbar = () => {
 
                         {/* Faculty of Civil Engineering (FCE) */}
                         <li className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]"
-                         onMouseEnter={() => handleSubOptionsMouseEnter(5)}
-                         onMouseLeave={handleSubOptionsMouseLeave}
+                            onMouseEnter={() => handleSubOptionsMouseEnter(5)}
+                            onMouseLeave={handleSubOptionsMouseLeave}
                         >
                             {/* sub menu */}
                             <button className='w-full flex justify-between items-center'>
@@ -360,9 +409,9 @@ const Navbar = () => {
                                 <AiOutlineRight />
                             </button>
 
-                                {/*  */}
-                                <ul className={`${isHoveredSubOption && subOptions === 5 ? 'flex flex-col' : 'hidden'}
-                            absolute -right-[200px] top-28 border text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
+                            {/*  */}
+                            <ul className={`${isHoveredSubOption && subOptions === 5 ? 'flex flex-col' : 'hidden'}
+                            absolute -right-[200px] top-28 border bg-white text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
                             `}>
                                 {
                                     fce.map(item => <Link
@@ -377,8 +426,8 @@ const Navbar = () => {
 
                         {/* Faculty of Business Studies (FBC) */}
                         <li className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]"
-                         onMouseEnter={() => handleSubOptionsMouseEnter(6)}
-                         onMouseLeave={handleSubOptionsMouseLeave}
+                            onMouseEnter={() => handleSubOptionsMouseEnter(6)}
+                            onMouseLeave={handleSubOptionsMouseLeave}
                         >
                             {/* sub menu */}
                             <button className='w-full flex justify-between items-center'>
@@ -386,9 +435,9 @@ const Navbar = () => {
                                 <AiOutlineRight />
                             </button>
 
-                                {/*  */}
-                                <ul className={`${isHoveredSubOption && subOptions === 6 ? 'flex flex-col' : 'hidden'}
-                            absolute -right-[200px] top-36 border text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
+                            {/*  */}
+                            <ul className={`${isHoveredSubOption && subOptions === 6 ? 'flex flex-col' : 'hidden'}
+                            absolute -right-[200px] top-36 border bg-white text-black w-52 px-4 py-2 mx-auto  rounded-lg shadow-xl
                             `}>
                                 {
                                     fbs.map(item => <Link
@@ -419,26 +468,67 @@ const Navbar = () => {
                     </button>
 
                     <ul
-                        className={`absolute  text-black  w-40 py-2  rounded-lg shadow-xl
-                    ${isHovered && navOptions === 3 ? 'block opacity-100' : 'hidden opacity-0'}   
+                        className={`absolute bg-white  text-black  w-60 py-2  rounded-lg shadow-xl
+                    ${isHovered && navOptions === 3 ? 'block opacity-100 z-10' : 'hidden opacity-0'}   
                     transition-opacity duration-300 ease-in-out
                     `}
                     >
                         <div className='arrow-up '></div>
-                        <li className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]">
-                            Dropdown List 1
-                        </li>
-                        <li className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]">
-                            Dropdown List 2
-                        </li>
-                        <li className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]">
-                            Dropdown List 3
-                        </li>
+                        {
+                            admission.map(item => <Link
+                                key={item.id}
+                                href={item.href}
+                                className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]">
+
+                                {item.text}
+
+                            </Link>)
+                        }
+
+                    </ul>
+                </div>
+                    
+                 {/* Research */}
+                 <div className=' hover:font-bold relative '
+                    onMouseEnter={() => handleMouseEnter(4)}
+                    onMouseLeave={handleMouseLeave}
+                >
+                    <button className='flex items-center gap-1  transition-opacity duration-300'
+
+                    >
+                        <h2>Research</h2>
+                        <AiOutlineDown className='' />
+                    </button>
+
+                    <ul
+                        className={`absolute bg-white  text-black  w-60 py-2  rounded-lg shadow-xl
+                    ${isHovered && navOptions === 4 ? 'block opacity-100 z-10' : 'hidden opacity-0'}   
+                    transition-opacity duration-300 ease-in-out
+                    `}
+                    >
+                        <div className='arrow-up '></div>
+                        {
+                            research.map(item => <Link
+                                key={item.id}
+                                href={item.href}
+                                className="flex w-full items-center px-3 py-2 text-sm cursor-pointer hover:text-[#9d2235]">
+
+                                {item.text}
+
+                            </Link>)
+                        }
+
                     </ul>
                 </div>
 
+                {/* contact */}
+                <div>
+                    <Link className='hover:font-bold' href='/contact'>Contact</Link>
+                </div>
 
             </div>
+
+
 
         </>
 
