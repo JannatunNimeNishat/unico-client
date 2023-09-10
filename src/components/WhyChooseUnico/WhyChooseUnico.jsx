@@ -21,7 +21,8 @@ function WhyChooseUnico() {
                     </div>
                     <h3 className='text-2xl font-semibold mt-5'>Affordability</h3>
                     <p className='my-4 px-8 text-gray-500'>Our financial aid program makes UniCamp affordable for every family throughout the world.</p>
-                    <Link href='/' className=' mx-auto mt-3'>
+                    
+                    <Link href='/financial_aid' className=' mx-auto mt-3'>
                         <Button btn_text={'Read more'} btn_width={'200px'} isArrowImg={true} />
                     </Link>
                 </div>
