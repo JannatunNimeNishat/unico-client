@@ -4,7 +4,7 @@ function Button({ btn_width, btn_text, isArrowImg }) {
     return (
         <>
             <button
-                className={`w-[${btn_width}] bg-[#9d2235]  text-white font-bold px-4 py-3 flex gap-2 items-center justify-center`}
+                className={`w-[${btn_width}] bg-[#9d2235]  text-white font-bold px-4 py-3 flex gap-2 items-center justify-center hover:bg-black `}
             >{btn_text}
                 {
                     isArrowImg && <AiOutlineArrowRight className='h-5 w-5 font-bold' />
