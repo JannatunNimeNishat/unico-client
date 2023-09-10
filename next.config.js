@@ -7,7 +7,8 @@ module.exports = {
         domains: [
 
             "i.ibb.co",
-
+            "ibb.co",
+            "images.unsplash.com"
         ],
     },
 

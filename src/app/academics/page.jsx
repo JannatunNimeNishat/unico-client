@@ -15,16 +15,16 @@ const departments = [
             {
                 id: 1,
                 dept_name: 'Computer Science and Engineering (CSE)',
-                href: '/cse'
+                href: 'departments/cse'
             },
             {
                 id: 2,
-                href: '/ict',
+                href: 'departments/ict',
                 dept_name: 'Information and Communication Technology (ICT)'
             },
             {
                 id: 3,
-                href: '/eee',
+                href: 'departments/eee',
                 dept_name: 'Electrical and Electronic Engineering (EEE)'
             },
         ],
@@ -37,12 +37,12 @@ const departments = [
         dept: [
             {
                 id: 1,
-                href: '/me',
+                href: 'departments/me',
                 dept_name: 'Department of Mechanical Engineering (ME)'
             },
             {
                 id: 2,
-                href: '/ipe',
+                href: 'departments/ipe',
                 dept_name: 'Industrial and Production Engineering (IPE)'
             }
         ],
@@ -55,7 +55,7 @@ const departments = [
         dept: [
             {
                 id: 1,
-                href: '/ce',
+                href: 'departments/ce',
                 dept_name: 'Department of Civil Engineering (CE)'
             }
         ],
@@ -68,17 +68,17 @@ const departments = [
         dept: [
             {
                 id: 1,
-                href: '/dba',
+                href: 'departments/dba',
                 dept_name: 'Department of Business Administration (DBA)'
             },
             {
                 id: 2,
-                href: '/ais',
+                href: 'departments/ais',
                 dept_name: 'Department of Accounting and Information Systems (AIS)'
             },
             {
                 id: 3,
-                href: '/mba',
+                href: 'departments/mba',
                 dept_name: 'Department of Business Administration (MBA)'
             },
         ],

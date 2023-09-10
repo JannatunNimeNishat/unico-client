@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "dept_name": "Computer Science and Engineering (CSE)",
+      "dept": "CSE",
+      "goals_and_objectives": "Our goal is to provide a comprehensive undergraduate education in computer science and engineering, equipping students with the skills needed for software development, network management, and artificial intelligence. Through hands-on projects and rigorous coursework, we aim to foster critical thinking and problem-solving abilities.",
+      "mission": "Our mission is to produce highly skilled and innovative computer scientists and engineers who can adapt to the evolving technology landscape. We strive to instill a passion for innovation and creativity in our students, preparing them for successful careers in the tech industry.",
+      "dept_head": "Dr. John Smith",
+      "eligibility_for_admission": "Admission is open to students with a high school diploma or equivalent. Prospective students should have a strong foundation in mathematics and science, along with a genuine interest in computer science and engineering."
+    },
+    {
+      "id": 2,
+      "dept_name": "Information and Communication Technology (ICT)",
+      "dept": "ICT",
+      "goals_and_objectives": "Our department aims to provide a comprehensive undergraduate education in Information and Communication Technology (ICT). We strive to educate students in the latest ICT technologies and practices, including data communication, cybersecurity, and cloud computing. Our goal is to prepare students to be adept at using technology to solve real-world problems.",
+      "mission": "Our mission is to bridge the gap between information technology and communication by equipping graduates with the skills to harness the power of technology in various fields. We aspire to produce ICT professionals who can excel in a rapidly evolving digital landscape.",
+      "dept_head": "Dr. Jane Doe",
+      "eligibility_for_admission": "Admission is open to high school graduates with a strong passion for technology and communication. While a bachelor's degree is not required, prospective students should demonstrate their commitment to mastering ICT concepts and technologies."
+    },
+    {
+      "id": 3,
+      "dept_name": "Electrical and Electronic Engineering (EEE)",
+      "dept": "EEE",
+      "goals_and_objectives": "Our department's primary goal is to train undergraduate engineers in electrical and electronic systems. We emphasize a strong foundation in power generation, electronic circuits, and renewable energy technologies. Through theoretical knowledge and hands-on experience, we aim to prepare students for the challenges of the electrical engineering field.",
+      "mission": "Our mission is to advance the field of electrical and electronic engineering through innovation, research, and the development of skilled engineers. We encourage students to think critically and creatively to solve complex engineering problems.",
+      "dept_head": "Dr. Robert Johnson",
+      "eligibility_for_admission": "Admission is open to high school graduates with a keen interest in electrical and electronic engineering. While a bachelor's degree is not required, prospective students should have a strong foundation in physics and mathematics."
+    },
+    {
+      "id": 4,
+      "dept_name": "Department of Mechanical Engineering (ME)",
+      "dept": "ME",
+      "goals_and_objectives": "Our department's primary objective is to impart knowledge in mechanical engineering principles, including design, materials, and thermal systems. We strive to provide a comprehensive undergraduate education that combines theoretical understanding with practical skills, enabling students to excel in the field.",
+      "mission": "Our mission is to prepare students for careers in mechanical design, analysis, and innovation. We aim to produce mechanical engineers who can contribute to the development of sustainable and efficient technologies.",
+      "dept_head": "Dr. Emily Wilson",
+      "eligibility_for_admission": "Admission is open to high school graduates with a strong background in physics and mechanics. While a bachelor's degree is not required, prospective students should have a passion for mechanical engineering and a desire to solve complex engineering problems."
+    },
+    {
+      "id": 5,
+      "dept_name": "Industrial and Production Engineering (IPE)",
+      "dept": "IPE",
+      "goals_and_objectives": "Our department's goals include educating students in industrial and production processes, including optimization, quality control, and supply chain management. We emphasize a multidisciplinary approach, combining engineering principles with management concepts to prepare students for the challenges of the manufacturing industry.",
+      "mission": "Our mission is to enhance efficiency and productivity in manufacturing and industrial systems. We strive to produce graduates who can drive innovation and improvements in production processes.",
+      "dept_head": "Dr. Michael Brown",
+      "eligibility_for_admission": "Admission is open to high school graduates interested in manufacturing systems and industrial processes. While a bachelor's degree is not required, prospective students should have a strong foundation in science and mathematics."
+    },
+    {
+      "id": 6,
+      "dept_name": "Department of Civil Engineering (CE)",
+      "dept": "CE",
+      "goals_and_objectives": "Our department's primary goals are to teach the principles of civil engineering and infrastructure development, including structural design, transportation, and environmental engineering. We emphasize the importance of sustainable and resilient infrastructure for the betterment of society.",
+      "mission": "Our mission is to create sustainable and resilient infrastructure for the future. We aim to produce civil engineers who can design and manage infrastructure projects that address society's evolving needs.",
+      "dept_head": "Dr. Sarah Davis",
+      "eligibility_for_admission": "Admission is open to high school graduates with a strong foundation in mathematics and engineering principles. While a bachelor's degree is not required, prospective students should be passionate about contributing to the development of essential infrastructure."
+    },
+    {
+      "id": 7,
+      "dept_name": "Department of Business Administration (DBA)",
+      "dept": "DBA",
+      "goals_and_objectives": "Our department's goals are to provide a strong undergraduate business education, covering various aspects of management, marketing, and entrepreneurship. We aim to equip students with the knowledge and skills needed to excel in the dynamic world of business.",
+      "mission": "Our mission is to prepare students for leadership roles in the business world and foster a spirit of innovation and entrepreneurship. We strive to produce graduates who can drive positive change in the business community.",
+      "dept_head": "Dr. Richard Clark",
+      "eligibility_for_admission": "Admission is open to high school graduates with an interest in business and management. A bachelor's degree is not required, but prospective students should have a strong desire to develop business acumen and leadership skills."
+    },
+    {
+      "id": 8,
+      "dept_name": "Department of Accounting and Information Systems (AIS)",
+      "dept": "AIS",
+      "goals_and_objectives": "Our department's primary goals include educating students in accounting and information systems, covering financial reporting, auditing, and data analysis. We emphasize the development of ethical and competent accounting professionals.",
+      "mission": "Our mission is to produce ethical and competent accounting professionals who can navigate the complex world of finance. We aim to prepare students for careers in accounting, auditing, and financial analysis.",
+      "dept_head": "Dr. Amanda Lewis",
+      "eligibility_for_admission": "Admission is open to high school graduates with a strong foundation in accounting principles and an interest in financial systems. A bachelor's degree is not required, but prospective students should be committed to upholding the highest ethical standards in the field."
+    },
+    {
+      "id": 9,
+      "dept_name": "Department of Business Administration (MBA)",
+      "dept": "MBA",
+      "goals_and_objectives": "Our department's goals are to provide advanced business education at the master's level, covering strategic leadership, global business, and organizational behavior. We aim to equip students with the knowledge and skills needed for high-level management roles.",
+      "mission": "Our mission is to prepare MBA graduates for leadership in the business world and develop their strategic thinking abilities. We strive to produce business leaders who can drive innovation and lead in a global context.",
+      "dept_head": "Dr. William Turner",
+      "eligibility_for_admission": "Admission is open to students who have completed their undergraduate degree and demonstrate a strong aptitude for business. Prospective students should be motivated to further their education and excel in the business field."
+    }
+  ]
+  
