@@ -41,7 +41,7 @@ const SingleDept = ({ params }) => {
             <h3 className='text-2xl text-[#ae152d] mt-14 font-semibold'>FACULTY MEMBERS</h3>
             <div className='mt-5 grid grid-cols-4 gap-5'>
                 {/* 1st */}
-                <div className='  shadow-xl border py-4'>
+                <div className='  shadow-xl border py-4 hover:shadow-2xl '>
 
                     <figure className='h-[180px] w-[180px] flex items-center justify-center border-4 border-[#ae152d] rounded-full mx-auto '>
                         <Image className='rounded-full h-[150px] w-[150px] hover:h-[170px] hover:w-[170px]  hover:duration-700 mx-auto' height={150} width={150} src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='' />

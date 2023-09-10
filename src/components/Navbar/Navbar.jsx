@@ -76,17 +76,17 @@ const Navbar = () => {
     const fece = [
         {
             id: 1,
-            href: '/cse',
+            href: '/departments/cse',
             text: 'Computer Science and Engineering (CSE)'
         },
         {
             id: 2,
-            href: '/ict',
+            href: '/departments/ict',
             text: 'Information and Communication Technology (ICT)'
         },
         {
             id: 3,
-            href: '/eee',
+            href: '/departments/eee',
             text: 'Electrical and Electronic Engineering (EEE)'
         },
     ]
@@ -94,12 +94,12 @@ const Navbar = () => {
     const fme = [
         {
             id: 1,
-            href: '/me',
+            href: '/departments/me',
             text: 'Department of Mechanical Engineering (ME)'
         },
         {
             id: 2,
-            href: '/ipe',
+            href: '/departments/ipe',
             text: 'Industrial and Production Engineering (IPE)'
         }
     ]
@@ -107,7 +107,7 @@ const Navbar = () => {
     const fce = [
         {
             id: 1,
-            href: '/ce',
+            href: '/departments/ce',
             text: 'Department of Civil Engineering (CE)'
         },
 
@@ -115,17 +115,17 @@ const Navbar = () => {
     const fbs = [
         {
             id: 1,
-            href: '/dba',
+            href: '/departments/dba',
             text: 'Department of Business Administration (DBA)'
         },
         {
             id: 2,
-            href: '/ais',
+            href: '/departments/ais',
             text: 'Department of Accounting and Information Systems (AIS)'
         },
         {
             id: 3,
-            href: '/mba',
+            href: '/departments/mba',
             text: 'Department of Business Administration (MBA)'
         },
 
@@ -240,11 +240,11 @@ const Navbar = () => {
             {/* bottom navbar */}
             <div className='my-bg-color text-white h-[60px] mt-[10px] flex gap-12 items-center justify-center'>
                 <div>
-                    <Link className='hover:font-bold' href='/'>Home</Link>
+                    <Link className='' href='/'>Home</Link>
                 </div>
 
                 {/* Administration */}
-                <div className=' hover:font-bold relative '
+                <div className='  relative '
                     onMouseEnter={() => handleMouseEnter(1)}
                     onMouseLeave={handleMouseLeave}
                 >
@@ -326,7 +326,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Academic */}
-                <div className=' hover:font-bold relative '
+                <div className='  relative '
                     onMouseEnter={() => handleMouseEnter(2)}
                     onMouseLeave={handleMouseLeave}
                 >
@@ -456,7 +456,7 @@ const Navbar = () => {
                 </div>
 
                 {/* admissions */}
-                <div className=' hover:font-bold relative '
+                <div className='  relative '
                     onMouseEnter={() => handleMouseEnter(3)}
                     onMouseLeave={handleMouseLeave}
                 >
@@ -489,7 +489,7 @@ const Navbar = () => {
                 </div>
                     
                  {/* Research */}
-                 <div className=' hover:font-bold relative '
+                 <div className='  relative '
                     onMouseEnter={() => handleMouseEnter(4)}
                     onMouseLeave={handleMouseLeave}
                 >
@@ -523,7 +523,7 @@ const Navbar = () => {
 
                 {/* contact */}
                 <div>
-                    <Link className='hover:font-bold' href='/contact'>Contact</Link>
+                    <Link className='' href='/contact'>Contact</Link>
                 </div>
 
             </div>
