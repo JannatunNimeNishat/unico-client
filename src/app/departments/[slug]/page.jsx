@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react';
 
 import department from '../../../../public/department/departments.json'
+import teachers from '../../../../public/teachers/teachers.json'
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '@/components/Button/Button';
@@ -15,16 +16,20 @@ const getData = (value) => {
         .catch(error => {
             console.log(error);
         }) */
-
-    return department.filter(item => item.dept === value.toUpperCase());
+    // console.log(teachers.filter(item => item.dept === value.toUpperCase()));
+    const slug_dept_info = {};
+    slug_dept_info['department_info'] = department.filter(item => item.dept === value.toUpperCase());
+    slug_dept_info['teachers_info'] = teachers.filter(item => item.dept === value.toUpperCase());
+    console.log(slug_dept_info);
+    return slug_dept_info;
 
 }
 
 
 const SingleDept = ({ params }) => {
     const data = getData(params.slug)
-    const { id, dept_name, dept, goals_and_objectives, mission, dept_head, eligibility_for_admission } = data[0] || [{}];
-    // console.log(dept_name);
+    const { id, dept_name, dept, goals_and_objectives, mission, dept_head, eligibility_for_admission } = data.department_info[0] || [{}];
+    // console.log(data);
     return (
         <div className='mt-10 my-container px-5'>
             <h3 className='text-4xl font-bold py-4'>{dept_name}</h3>
@@ -40,87 +45,35 @@ const SingleDept = ({ params }) => {
             {/* FACULTY MEMBERS */}
             <h3 className='text-2xl text-[#ae152d] mt-14 font-semibold'>FACULTY MEMBERS</h3>
             <div className='mt-5 grid grid-cols-4 gap-5'>
-                {/* 1st */}
-                <div className='  shadow-xl border py-4 hover:shadow-2xl '>
+                {
+                    data.teachers_info.map(item => <div
+                    key={item.id}
+                    className='  shadow-xl border py-4 hover:shadow-2xl '>
 
-                    <figure className='h-[180px] w-[180px] flex items-center justify-center border-4 border-[#ae152d] rounded-full mx-auto '>
-                        <Image className='rounded-full h-[150px] w-[150px] hover:h-[170px] hover:w-[170px]  hover:duration-700 mx-auto' height={150} width={150} src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='' />
-                    </figure>
+                        <figure className='h-[180px] w-[180px] flex items-center justify-center border-4 border-[#ae152d] rounded-full mx-auto '>
+                            <Image className='rounded-full h-[150px] w-[150px] hover:h-[170px] hover:w-[170px]  hover:duration-700 mx-auto' height={150} width={150} src={item.img} alt='' />
+                        </figure>
 
-                    <div className='text-center mt-4 px-5'>
-                        <p className='font-semibold text-xl'>{dept_head}</p>
-                        <small className='mt-1 block'>Assistant professor</small>
-                        <small className='leading-3'>Ph.D. (Pursuing ) in CSE, RUET, M.Sc. (Thesis) in CSE & B.Sc. Engg. in CSE, SUST.</small>
+                        <div className='text-center mt-4 px-5'>
+                            <p className='font-semibold text-xl'>{item.name}</p>
+                            <small className='mt-1 block text-gray-500'>{item.designation}</small>
+                            <small className='leading-3 text-gray-500'>{item.qualification}</small>
 
-                        <Link className='bg-[#9d2235] w-2/3 mx-auto mt-3  text-white font-bold px-4 py-2 flex gap-2 items-center justify-center hover:bg-black' href={`/teachers/${1}`}>
-                            view profile
-                        </Link>
+                            <Link className='bg-[#9d2235] w-2/3 mx-auto mt-3  text-white font-bold px-4 py-2 flex gap-2 items-center justify-center hover:bg-black' href={`/teachers/${item.id}`}>
+                                view profile
+                            </Link>
 
-                    </div>
+                        </div>
 
-                </div>
-                {/* 2nd */}
-                <div className='  shadow-xl border py-4 px-5'>
-
-                    <figure className='h-[180px] w-[180px] flex items-center justify-center border-4 border-[#ae152d] rounded-full mx-auto '>
-                        <Image className='rounded-full h-[150px] w-[150px] hover:h-[170px] hover:w-[170px]  hover:duration-700 mx-auto' height={150} width={150} src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='' />
-                    </figure>
-
-                    <div className='text-center mt-4'>
-                        <p className='font-semibold text-xl'>{dept_head}</p>
-                        <small className='mt-1 block'>Assistant professor</small>
-                        <small className='leading-3'>Ph.D. (Pursuing ) in CSE, RUET, M.Sc. (Thesis) in CSE & B.Sc. Engg. in CSE, SUST.</small>
-
-                        <Link className='bg-[#9d2235] w-2/3 mx-auto mt-3  text-white font-bold px-4 py-2 flex gap-2 items-center justify-center hover:bg-black' href={`/teachers/${1}`}>
-                            view profile
-                        </Link>
-
-                    </div>
-
-                </div>
-                {/* 3rd */}
-                <div className='  shadow-xl border py-4'>
-
-                    <figure className='h-[180px] w-[180px] flex items-center justify-center border-4 border-[#ae152d] rounded-full mx-auto '>
-                        <Image className='rounded-full h-[150px] w-[150px] hover:h-[170px] hover:w-[170px]  hover:duration-700 mx-auto' height={150} width={150} src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='' />
-                    </figure>
-
-                    <div className='text-center mt-4 px-5'>
-                        <p className='font-semibold text-xl'>{dept_head}</p>
-                        <small className='mt-1 block'>Assistant professor</small>
-                        <small className='leading-3'>Ph.D. (Pursuing ) in CSE, RUET, M.Sc. (Thesis) in CSE & B.Sc. Engg. in CSE, SUST.</small>
-
-                        <Link className='bg-[#9d2235] w-2/3 mx-auto mt-3  text-white font-bold px-4 py-2 flex gap-2 items-center justify-center hover:bg-black' href={`/teachers/${1}`}>
-                            view profile
-                        </Link>
-
-                    </div>
-
-                </div>
-
-                {/* 4th */}
-                <div className='w-[260px]  shadow-xl border py-4'>
-
-                    <figure className='h-[180px] w-[180px] flex items-center justify-center border-4 border-[#ae152d] rounded-full mx-auto '>
-                        <Image className='rounded-full h-[150px] w-[150px] hover:h-[170px] hover:w-[170px]  hover:duration-700 mx-auto' height={150} width={150} src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='' />
-                    </figure>
-
-                    <div className='text-center mt-4 px-5'>
-                        <p className='font-semibold text-xl'>{dept_head}</p>
-                        <small className='mt-1 block'>Assistant professor</small>
-                        <small className='leading-3'>Ph.D. (Pursuing ) in CSE, RUET, M.Sc. (Thesis) in CSE & B.Sc. Engg. in CSE, SUST.</small>
-
-                        <Link className='bg-[#9d2235] w-2/3 mx-auto mt-3  text-white font-bold px-4 py-2 flex gap-2 items-center justify-center hover:bg-black' href={`/teachers/${1}`}>
-                            view profile
-                        </Link>
-
-                    </div>
-
-                </div>
+                    </div>)
+                }
+              
             </div>
             <div className='mt-10  flex justify-center   text-center'>
                 <Button btn_text={'Show All Faculty Members'} />
             </div>
+
+
         </div>
     );
 };

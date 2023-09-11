@@ -146,7 +146,7 @@ const Academics = () => {
                 }
             </div>
             {/* learn aboard & career development */}
-            <div className='flex gap-8 mt-28'>
+            <div className='flex gap-8 mt-28 w-11/12 mx-auto'>
                 <div className='h-[230px] w-[575px] shadow-xl px-8 py-3 flex flex-col justify-center border'>
                     <div className='flex items-center gap-4'>
                         <Image width={70} height={70} src={'/academic/graduation.png'} alt='' />

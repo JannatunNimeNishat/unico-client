@@ -1,0 +1,1255 @@
+[
+    {
+        "id": 1,
+        "name": "Dr Wonderlane",
+        "img": "https://i.ibb.co/chKjMfL/wonderlane.jpg",
+        "dept": "CSE",
+        "dept_name": "Computer Science and Engineering",
+        "email": "teacher1@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Computer Science",
+        "courses": [
+            "Introduction to Algorithms",
+            "Data Structures",
+            "Machine Learning",
+            "Web Development",
+            "Artificial Intelligence"
+        ],
+        "publications": [
+            {
+                "title": "Machine Learning Approaches for Image Recognition",
+                "year": 2022,
+                "journal": "Journal of Computer Science",
+                "authors": [
+                    "Dr Wonderlane",
+                    "Author 2"
+                ]
+            },
+            {
+                "title": "Web Development Best Practices",
+                "year": 2021,
+                "journal": "Web Developer Magazine",
+                "authors": [
+                    "Dr Wonderlane"
+                ]
+            },
+            {
+                "title": "Advanced Data Structures",
+                "year": 2020,
+                "journal": "International Conference on Computer Science",
+                "authors": [
+                    "Dr Wonderlane",
+                    "Author 3"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Dr. Yogendra Singh",
+        "img": "https://i.ibb.co/sQkr5Gc/yogendra-singh.jpg",
+        "dept": "CSE",
+        "dept_name": "Computer Science and Engineering",
+        "email": "teacher2@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Computer Science",
+        "courses": [
+            "Database Systems",
+            "Software Engineering",
+            "Computer Networks",
+            "Operating Systems",
+            "Artificial Intelligence"
+        ],
+        "publications": [
+            {
+                "title": "Database Management Systems",
+                "year": 2021,
+                "journal": "Database Journal",
+                "authors": [
+                    "Dr. Yogendra Singh",
+                    "Author 4"
+                ]
+            },
+            {
+                "title": "Software Development Lifecycle",
+                "year": 2020,
+                "journal": "Software Engineering Journal",
+                "authors": [
+                    "Dr. Yogendra Singh"
+                ]
+            },
+            {
+                "title": "Networking Protocols",
+                "year": 2019,
+                "journal": "Networks Magazine",
+                "authors": [
+                    "Dr. Yogendra Singh",
+                    "Author 5"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Dr. Alex Starnes",
+        "img": "https://i.ibb.co/60BNQZG/alex-starnes.jpg",
+        "dept": "CSE",
+        "dept_name": "Computer Science and Engineering",
+        "email": "teacher3@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Computer Science",
+        "courses": [
+            "Programming Fundamentals",
+            "Web Development Basics",
+            "Data Structures in C++"
+        ],
+        "publications": [
+            {
+                "title": "Introduction to Programming",
+                "year": 2020,
+                "journal": "Programming Journal",
+                "authors": [
+                    "Dr. Alex Starnes"
+                ]
+            },
+            {
+                "title": "Web Development Essentials",
+                "year": 2019,
+                "journal": "Web Developer Magazine",
+                "authors": [
+                    "Dr. Alex Starnes",
+                    "Author 6"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ali Morshedlou",
+        "img": "https://i.ibb.co/BrGDKYf/ali-morshedlou.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "ali_morshedlou@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Industrial Engineering",
+        "courses": [
+            "Supply Chain Management",
+            "Quality Control",
+            "Operations Research"
+        ],
+        "publications": [
+            {
+                "title": "Optimizing Production Processes",
+                "year": 2021,
+                "journal": "Journal of Industrial Engineering",
+                "authors": [
+                    "Ali Morshedlou",
+                    "Author 29"
+                ]
+            },
+            {
+                "title": "Inventory Management Strategies",
+                "year": 2020,
+                "journal": "Operations Management Journal",
+                "authors": [
+                    "Ali Morshedlou"
+                ]
+            },
+            {
+                "title": "Lean Manufacturing Practices",
+                "year": 2019,
+                "journal": "Production Engineering Review",
+                "authors": [
+                    "Ali Morshedlou",
+                    "Author 30"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Amy Hirschi",
+        "img": "https://i.ibb.co/7RWxgq5/amy-hirschi.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "amy-hirschi@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Industrial Engineering",
+        "courses": [
+            "Operations Management",
+            "Quality Assurance",
+            "Production Planning"
+        ],
+        "publications": [
+            {
+                "title": "Quality Control in Manufacturing",
+                "year": 2022,
+                "journal": "Journal of Quality Engineering",
+                "authors": [
+                    "Amy Hirschi",
+                    "Author 31"
+                ]
+            },
+            {
+                "title": "Production Scheduling Methods",
+                "year": 2021,
+                "journal": "Production Planning and Control",
+                "authors": [
+                    "Amy Hirschi"
+                ]
+            },
+            {
+                "title": "Lean Principles in Production",
+                "year": 2020,
+                "journal": "International Journal of Lean Six Sigma",
+                "authors": [
+                    "Amy Hirschi",
+                    "Author 32"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dr. Carlos Gil",
+        "img": "https://i.ibb.co/5k3Ctzw/carlos-gil.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "carlos-gil@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Industrial Engineering",
+        "courses": [
+            "Production Systems Analysis",
+            "Operations Research",
+            "Supply Chain Management"
+        ],
+        "publications": [
+            {
+                "title": "Supply Chain Optimization",
+                "year": 2023,
+                "journal": "International Journal of Operations and Production Management",
+                "authors": [
+                    "Dr. Carlos Gil",
+                    "Author 33"
+                ]
+            },
+            {
+                "title": "Production Efficiency Metrics",
+                "year": 2022,
+                "journal": "International Journal of Production Research",
+                "authors": [
+                    "Dr. Carlos Gil"
+                ]
+            },
+            {
+                "title": "Lean Practices in Manufacturing",
+                "year": 2021,
+                "journal": "Journal of Lean Management",
+                "authors": [
+                    "Dr. Carlos Gil",
+                    "Author 34"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Dr. Christian Buehner",
+        "img": "https://i.ibb.co/1fRymYZ/christian-buehner.jpg",
+        "dept": "ICT",
+        "dept_name": "Information and Communication Technology",
+        "email": "christian-buehner@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Information Technology",
+        "courses": [
+            "Information Systems",
+            "Data Communication",
+            "Network Security",
+            "Wireless Communication",
+            "Cloud Computing"
+        ],
+        "publications": [
+            {
+                "title": "Wireless Network Protocols",
+                "year": 2022,
+                "journal": "International Journal of Communication Networks",
+                "authors": [
+                    "Dr. Christian Buehner",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Cloud Computing Trends",
+                "year": 2021,
+                "journal": "Cloud Computing Journal",
+                "authors": [
+                    "Dr. Christian Buehner"
+                ]
+            },
+            {
+                "title": "Information Security Best Practices",
+                "year": 2020,
+                "journal": "Security Research Journal",
+                "authors": [
+                    "Dr. Christian Buehner",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Christina",
+        "img": "https://i.ibb.co/9HVsZ3J/christina.jpg",
+        "dept": "ICT",
+        "dept_name": "Information and Communication Technology",
+        "email": "christina@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Information Technology",
+        "courses": [
+            "Database Management Systems",
+            "Web Development",
+            "Information Security",
+            "Data Science",
+            "Computer Networks"
+        ],
+        "publications": [
+            {
+                "title": "Database Design Principles",
+                "year": 2021,
+                "journal": "Database Journal",
+                "authors": [
+                    "Christina",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Web Security Practices",
+                "year": 2020,
+                "journal": "Web Security Review",
+                "authors": [
+                    "Christina"
+                ]
+            },
+            {
+                "title": "Data Science Applications",
+                "year": 2019,
+                "journal": "Data Science Journal",
+                "authors": [
+                    "Christina",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Clay Elliot",
+        "img": "https://i.ibb.co/ykWrn0f/clay-elliot.jpg",
+        "dept": "ICT",
+        "dept_name": "Information and Communication Technology",
+        "email": "clay-elliot@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Information Technology",
+        "courses": [
+            "Programming Fundamentals",
+            "Web Development Basics",
+            "Computer Graphics"
+        ],
+        "publications": [
+            {
+                "title": "Introduction to Programming in Python",
+                "year": 2020,
+                "journal": "Programming Journal",
+                "authors": [
+                    "Clay Elliot"
+                ]
+            },
+            {
+                "title": "Web Development Essentials",
+                "year": 2019,
+                "journal": "Web Developer Magazine",
+                "authors": [
+                    "Clay Elliot",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Dr. Christina Wocintech",
+        "img": "https://i.ibb.co/xg7Ps3x/christina-wocintech.jpg",
+        "dept": "EEE",
+        "dept_name": "Electrical and Electronic Engineering",
+        "email": "christina-wocintech@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Electrical Engineering",
+        "courses": [
+            "Electric Circuits",
+            "Power Systems",
+            "Electromagnetic Fields",
+            "Digital Electronics",
+            "Renewable Energy"
+        ],
+        "publications": [
+            {
+                "title": "Advanced Power Systems Analysis",
+                "year": 2022,
+                "journal": "International Journal of Electrical Engineering",
+                "authors": [
+                    "Dr. Christina Wocintech",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Renewable Energy Technologies",
+                "year": 2021,
+                "journal": "Energy Sustainability Journal",
+                "authors": [
+                    "Dr. Christina Wocintech"
+                ]
+            },
+            {
+                "title": "Electromagnetic Field Theory",
+                "year": 2020,
+                "journal": "Electromagnetism Research",
+                "authors": [
+                    "Dr. Christina Wocintech",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Dr. Foto Sushi",
+        "img": "https://i.ibb.co/qggWTzH/foto-sushi.jpg",
+        "dept": "EEE",
+        "dept_name": "Electrical and Electronic Engineering",
+        "email": "foto-sushi@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Electrical Engineering",
+        "courses": [
+            "Digital Signal Processing",
+            "Control Systems",
+            "Microelectronics",
+            "Power Electronics",
+            "Electric Machines"
+        ],
+        "publications": [
+            {
+                "title": "Digital Signal Processing Techniques",
+                "year": 2021,
+                "journal": "Signal Processing Journal",
+                "authors": [
+                    "Dr. Foto Sushi",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Control Systems Design",
+                "year": 2020,
+                "journal": "Control Engineering Review",
+                "authors": [
+                    "Dr. Foto Sushi"
+                ]
+            },
+            {
+                "title": "Microelectronics Fundamentals",
+                "year": 2019,
+                "journal": "Microelectronics Research",
+                "authors": [
+                    "Dr. Foto Sushi",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Harps Joseph",
+        "img": "https://i.ibb.co/wNm5zmG/harps-joseph.jpg",
+        "dept": "EEE",
+        "dept_name": "Electrical and Electronic Engineering",
+        "email": "harps-joseph@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Electrical Engineering",
+        "courses": [
+            "Introduction to Electrical Engineering",
+            "Analog Electronics",
+            "Digital Systems Design"
+        ],
+        "publications": [
+            {
+                "title": "Introduction to Electrical Engineering",
+                "year": 2020,
+                "journal": "Electrical Engineering Journal",
+                "authors": [
+                    "Harps Joseph"
+                ]
+            },
+            {
+                "title": "Analog Electronics Circuits",
+                "year": 2019,
+                "journal": "Analog Electronics Journal",
+                "authors": [
+                    "Harps Joseph",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Professor Smith",
+        "img": "https://i.ibb.co/7CmZQQH/haydn-golden.jpg",
+        "dept": "ME",
+        "dept_name": "Department of Mechanical Engineering",
+        "email": "prof.smith@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Mechanical Engineering",
+        "courses": [
+            "Thermodynamics",
+            "Mechanical Design",
+            "Fluid Mechanics",
+            "Engineering Materials",
+            "Finite Element Analysis"
+        ],
+        "publications": [
+            {
+                "title": "Advanced Topics in Thermodynamics",
+                "year": 2022,
+                "journal": "Journal of Mechanical Engineering",
+                "authors": [
+                    "Professor Smith",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Mechanical Design Principles",
+                "year": 2021,
+                "journal": "Design Engineering Journal",
+                "authors": [
+                    "Professor Smith"
+                ]
+            },
+            {
+                "title": "Fluid Flow Modeling",
+                "year": 2020,
+                "journal": "Fluid Dynamics Research",
+                "authors": [
+                    "Professor Smith",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Dr. Taylor Brown",
+        "img": "https://i.ibb.co/CbCFJ2M/stephanie-liverani.jpg",
+        "dept": "ME",
+        "dept_name": "Department of Mechanical Engineering",
+        "email": "dr.brown@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Mechanical Engineering",
+        "courses": [
+            "Heat Transfer",
+            "Machine Design",
+            "Manufacturing Processes",
+            "Mechatronics",
+            "Automotive Engineering"
+        ],
+        "publications": [
+            {
+                "title": "Heat Transfer Analysis",
+                "year": 2021,
+                "journal": "Heat Transfer Journal",
+                "authors": [
+                    "Dr. Taylor Brown",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Machine Design Innovations",
+                "year": 2020,
+                "journal": "Machine Design Review",
+                "authors": [
+                    "Dr. Taylor Brown"
+                ]
+            },
+            {
+                "title": "Advanced Manufacturing Techniques",
+                "year": 2019,
+                "journal": "Manufacturing Science Research",
+                "authors": [
+                    "Dr. Taylor Brown",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Prof. Emma White",
+        "img": "https://i.ibb.co/wLWRJb2/Emma-White.jpg",
+        "dept": "ME",
+        "dept_name": "Department of Mechanical Engineering",
+        "email": "emma.white@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Mechanical Engineering",
+        "courses": [
+            "Engineering Mechanics",
+            "Materials Science",
+            "Robotics",
+            "Vibration Analysis"
+        ],
+        "publications": [
+            {
+                "title": "Mechanical Vibration Analysis",
+                "year": 2020,
+                "journal": "Vibration Analysis Journal",
+                "authors": [
+                    "Prof. Emma White"
+                ]
+            },
+            {
+                "title": "Materials Science Fundamentals",
+                "year": 2019,
+                "journal": "Materials Science Journal",
+                "authors": [
+                    "Prof. Emma White",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Dr. Emily Davis",
+        "img": "https://i.ibb.co/h99FmZp/usman-yousaf.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "emily.davis@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Industrial Engineering",
+        "courses": [
+            "Supply Chain Management",
+            "Quality Control",
+            "Operations Research",
+            "Lean Manufacturing",
+            "Production Planning"
+        ],
+        "publications": [
+            {
+                "title": "Optimizing Supply Chain Strategies",
+                "year": 2022,
+                "journal": "Journal of Supply Chain Management",
+                "authors": [
+                    "Dr. Emily Davis",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Quality Control Methods",
+                "year": 2021,
+                "journal": "Quality Engineering Journal",
+                "authors": [
+                    "Dr. Emily Davis"
+                ]
+            },
+            {
+                "title": "Operations Research Applications",
+                "year": 2020,
+                "journal": "Operations Research Journal",
+                "authors": [
+                    "Dr. Emily Davis",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Prof. Michael Green",
+        "img": "https://i.ibb.co/4f2TpsJ/michael-Green.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "michael.green@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Industrial Engineering",
+        "courses": [
+            "Production Systems",
+            "Inventory Management",
+            "Facility Layout Design",
+            "Quality Assurance",
+            "Lean Six Sigma"
+        ],
+        "publications": [
+            {
+                "title": "Optimizing Production Systems",
+                "year": 2021,
+                "journal": "Production Systems Journal",
+                "authors": [
+                    "Prof. Michael Green",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Inventory Management Strategies",
+                "year": 2020,
+                "journal": "Inventory Management Journal",
+                "authors": [
+                    "Prof. Michael Green"
+                ]
+            },
+            {
+                "title": "Facility Layout Design Principles",
+                "year": 2019,
+                "journal": "Facility Design Review",
+                "authors": [
+                    "Prof. Michael Green",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Dr. William Parker",
+        "img": "https://i.ibb.co/fHbfLcr/Dr-Michael-Adams.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "william.parker@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Industrial Engineering",
+        "courses": [
+            "Production Planning and Control",
+            "Supply Chain Optimization",
+            "Quality Management",
+            "Operations Management"
+        ],
+        "publications": [
+            {
+                "title": "Production Planning Strategies",
+                "year": 2020,
+                "journal": "Production Planning Journal",
+                "authors": [
+                    "Dr. William Parker"
+                ]
+            },
+            {
+                "title": "Supply Chain Optimization Models",
+                "year": 2019,
+                "journal": "Supply Chain Optimization Journal",
+                "authors": [
+                    "Dr. William Parker",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Dr. Sarah Johnson",
+        "img": "https://i.ibb.co/vjsQdf8/Dr-Sarah-Johnson.jpg",
+        "dept": "CE",
+        "dept_name": "Department of Civil Engineering",
+        "email": "sarah.johnson@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Civil Engineering",
+        "courses": [
+            "Structural Analysis",
+            "Geotechnical Engineering",
+            "Environmental Engineering",
+            "Transportation Engineering",
+            "Construction Management"
+        ],
+        "publications": [
+            {
+                "title": "Advanced Structural Analysis",
+                "year": 2022,
+                "journal": "Journal of Civil Engineering",
+                "authors": [
+                    "Dr. Sarah Johnson",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Geotechnical Engineering Practices",
+                "year": 2021,
+                "journal": "Geotechnical Engineering Journal",
+                "authors": [
+                    "Dr. Sarah Johnson"
+                ]
+            },
+            {
+                "title": "Environmental Impact Assessment",
+                "year": 2020,
+                "journal": "Environmental Engineering Review",
+                "authors": [
+                    "Dr. Sarah Johnson",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Prof. John Anderson",
+        "img": "https://i.ibb.co/QMtHwv6/dr-terrence.jpg",
+        "dept": "CE",
+        "dept_name": "Department of Civil Engineering",
+        "email": "john.anderson@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Civil Engineering",
+        "courses": [
+            "Hydraulic Engineering",
+            "Structural Design",
+            "Construction Materials",
+            "Water Resources Engineering",
+            "Urban Planning"
+        ],
+        "publications": [
+            {
+                "title": "Hydraulic Engineering Principles",
+                "year": 2021,
+                "journal": "Hydraulic Engineering Journal",
+                "authors": [
+                    "Prof. John Anderson",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Advanced Structural Design",
+                "year": 2020,
+                "journal": "Structural Design Review",
+                "authors": [
+                    "Prof. John Anderson"
+                ]
+            },
+            {
+                "title": "Construction Materials Handbook",
+                "year": 2019,
+                "journal": "Construction Materials Journal",
+                "authors": [
+                    "Prof. John Anderson",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Dr. Robert Clark",
+        "img": "https://i.ibb.co/hsxdZmK/Robert-Clark.jpg",
+        "dept": "CE",
+        "dept_name": "Department of Civil Engineering",
+        "email": "robert.clark@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Civil Engineering",
+        "courses": [
+            "Surveying and Mapping",
+            "Concrete Technology",
+            "Transportation Planning",
+            "Environmental Impact Assessment"
+        ],
+        "publications": [
+            {
+                "title": "Surveying Techniques",
+                "year": 2020,
+                "journal": "Surveying Journal",
+                "authors": [
+                    "Dr. Robert Clark"
+                ]
+            },
+            {
+                "title": "Concrete Technology Advances",
+                "year": 2019,
+                "journal": "Concrete Technology Review",
+                "authors": [
+                    "Dr. Robert Clark",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Dr. James Smith",
+        "img": "https://i.ibb.co/7prKzrB/James-Smith.jpg",
+        "dept": "DBA",
+        "dept_name": "Department of Business Administration",
+        "email": "james.smith@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Business Administration",
+        "courses": [
+            "Marketing Management",
+            "Strategic Management",
+            "Business Ethics",
+            "International Business",
+            "Financial Management"
+        ],
+        "publications": [
+            {
+                "title": "Strategic Planning in Business",
+                "year": 2022,
+                "journal": "Journal of Business Strategy",
+                "authors": [
+                    "Dr. James Smith",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Marketing Strategies for Growth",
+                "year": 2021,
+                "journal": "Marketing Management Journal",
+                "authors": [
+                    "Dr. James Smith"
+                ]
+            },
+            {
+                "title": "Business Ethics and Corporate Responsibility",
+                "year": 2020,
+                "journal": "Business Ethics Review",
+                "authors": [
+                    "Dr. James Smith",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Prof. Carlos Gil",
+        "img": "https://i.ibb.co/FVTLLqx/juan-encalada.jpg",
+        "dept": "DBA",
+        "dept_name": "Department of Business Administration",
+        "email": "emily.johnson@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Business Administration",
+        "courses": [
+            "Human Resource Management",
+            "Financial Accounting",
+            "Business Law",
+            "Organizational Behavior",
+            "Management Information Systems"
+        ],
+        "publications": [
+            {
+                "title": "Leadership in Organizations",
+                "year": 2021,
+                "journal": "Leadership Journal",
+                "authors": [
+                    "Prof. Carlos Gil",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Financial Reporting Practices",
+                "year": 2020,
+                "journal": "Financial Accounting Review",
+                "authors": [
+                    "Prof. Carlos Gil"
+                ]
+            },
+            {
+                "title": "Business Law and Ethics",
+                "year": 2019,
+                "journal": "Business Law Journal",
+                "authors": [
+                    "Prof. Carlos Gil",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Dr. Michael Brown",
+        "img": "https://i.ibb.co/tznPtt6/Michael-Brown.jpg",
+        "dept": "DBA",
+        "dept_name": "Department of Business Administration",
+        "email": "michael.brown@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "MBA in Business Administration",
+        "courses": [
+            "Entrepreneurship",
+            "Business Communication",
+            "Operations Management",
+            "Business Strategy"
+        ],
+        "publications": [
+            {
+                "title": "Entrepreneurship and Innovation",
+                "year": 2020,
+                "journal": "Entrepreneurship Journal",
+                "authors": [
+                    "Dr. Michael Brown"
+                ]
+            },
+            {
+                "title": "Effective Business Communication",
+                "year": 2019,
+                "journal": "Communication in Business Review",
+                "authors": [
+                    "Dr. Michael Brown",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Prof. kitera Dent",
+        "img": "https://i.ibb.co/0Kjjk4P/kitera-dent.jpg",
+        "dept": "AIS",
+        "dept_name": "Department of Accounting and Information Systems",
+        "email": "jennifer.white@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Accounting",
+        "courses": [
+            "Financial Accounting",
+            "Auditing",
+            "Taxation",
+            "Cost Accounting",
+            "Accounting Information Systems"
+        ],
+        "publications": [
+            {
+                "title": "Advanced Financial Accounting",
+                "year": 2022,
+                "journal": "Accounting Research Journal",
+                "authors": [
+                    "Prof. kitera Dent",
+                    "Author 11"
+                ]
+            },
+            {
+                "title": "Auditing Standards and Practices",
+                "year": 2021,
+                "journal": "Auditing Journal",
+                "authors": [
+                    "Prof. kitera Dent"
+                ]
+            },
+            {
+                "title": "Taxation Laws and Regulations",
+                "year": 2020,
+                "journal": "Taxation Review",
+                "authors": [
+                    "Prof. kitera Dent",
+                    "Author 12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Dr. Daniel Green",
+        "img": "https://i.ibb.co/9cjQDnJ/Daniel-Green.jpg",
+        "dept": "AIS",
+        "dept_name": "Department of Accounting and Information Systems",
+        "email": "daniel.green@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Accounting",
+        "courses": [
+            "Managerial Accounting",
+            "Financial Reporting",
+            "Accounting Ethics",
+            "Business Taxation",
+            "Enterprise Resource Planning"
+        ],
+        "publications": [
+            {
+                "title": "Managerial Accounting Principles",
+                "year": 2021,
+                "journal": "Managerial Accounting Journal",
+                "authors": [
+                    "Dr. Daniel Green",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Financial Reporting Standards",
+                "year": 2020,
+                "journal": "Financial Reporting Review",
+                "authors": [
+                    "Dr. Daniel Green"
+                ]
+            },
+            {
+                "title": "Accounting Ethics and Professional Responsibility",
+                "year": 2019,
+                "journal": "Ethics in Accounting Journal",
+                "authors": [
+                    "Dr. Daniel Green",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Dr. muhammad-abdullah",
+        "img": "https://i.ibb.co/Y2dKYG0/muhammad-abdullah.jpg",
+        "dept": "AIS",
+        "dept_name": "Department of Accounting and Information Systems",
+        "email": "sarah.davis@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc. in Accounting",
+        "courses": [
+            "Financial Management",
+            "Accounting Information Systems",
+            "Business Analytics",
+            "Forensic Accounting"
+        ],
+        "publications": [
+            {
+                "title": "Financial Management Strategies",
+                "year": 2020,
+                "journal": "Financial Management Journal",
+                "authors": [
+                    "Dr. muhammad-abdullah"
+                ]
+            },
+            {
+                "title": "Accounting Information Systems Design",
+                "year": 2019,
+                "journal": "Information Systems in Accounting Review",
+                "authors": [
+                    "Dr. muhammad-abdullah",
+                    "Author 15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Prof. Foto sushi",
+        "img": "https://i.ibb.co/NFsV1m2/ludovic-migneault.jpg",
+        "dept": "MBA",
+        "dept_name": "Department of Business Administration",
+        "email": "robert.johnson@example.com",
+        "designation": "Professor",
+        "qualification": "Ph.D. in Business Administration",
+        "courses": [
+            "Leadership and Management",
+            "Strategic Planning",
+            "Entrepreneurship",
+            "Business Ethics",
+            "Organizational Behavior"
+        ],
+        "publications": [
+            {
+                "title": "Effective Leadership Strategies",
+                "year": 2022,
+                "journal": "Leadership Journal",
+                "authors": [
+                    "Prof. Robert Johnson",
+                    "Prof. Foto sushi"
+                ]
+            },
+            {
+                "title": "Strategic Planning for Businesses",
+                "year": 2021,
+                "journal": "Strategic Planning Review",
+                "authors": [
+                    "Prof. Robert Johnson",
+                    "Prof. Foto sushi"
+                ]
+            },
+            {
+                "title": "Entrepreneurship and Innovation",
+                "year": 2020,
+                "journal": "Entrepreneurship Journal",
+                "authors": [
+                    "Prof. Robert Johnson",
+                    "Prof. Foto sushi"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Dr. Emily Parker",
+        "img": "https://i.ibb.co/ftgcGht/Emily-Parker.jpg",
+        "dept": "MBA",
+        "dept_name": "Department of Business Administration",
+        "email": "emily.parker@example.com",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D. in Business Administration",
+        "courses": [
+            "Marketing Management",
+            "Financial Management",
+            "Business Law",
+            "Business Communication",
+            "Management Information Systems"
+        ],
+        "publications": [
+            {
+                "title": "Marketing Strategies for Business Growth",
+                "year": 2021,
+                "journal": "Marketing Management Journal",
+                "authors": [
+                    "Dr. Emily Parker",
+                    "Author 13"
+                ]
+            },
+            {
+                "title": "Financial Management Practices",
+                "year": 2020,
+                "journal": "Financial Management Review",
+                "authors": [
+                    "Dr. Emily Parker"
+                ]
+            },
+            {
+                "title": "Business Law and Ethics",
+                "year": 2019,
+                "journal": "Business Law Journal",
+                "authors": [
+                    "Dr. Emily Parker",
+                    "Author 14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Dr. Michael Adams",
+        "img": "https://i.ibb.co/fHbfLcr/Dr-Michael-Adams.jpg",
+        "dept": "MBA",
+        "dept_name": "Department of Business Administration",
+        "email": "michael.adams@example.com",
+        "designation": "Assistant Professor",
+        "qualification": "MBA in Business Administration",
+        "courses": [
+            "Human Resource Management",
+            "Organizational Leadership",
+            "Business Ethics and Social Responsibility",
+            "Strategic Marketing",
+            "Financial Planning"
+        ],
+        "publications": [
+            {
+                "title": "Human Resource Management Strategies",
+                "year": 2020,
+                "journal": "HR Management Journal",
+                "authors": [
+                    "Dr. Michael Adams"
+                ]
+            },
+            {
+                "title": "Leadership in Organizations",
+                "year": 2019,
+                "journal": "Leadership Review",
+                "authors": [
+                    "Dr. Michael Adams",
+                    "Author 15"
+                ]
+            }
+        ]
+    }
+]

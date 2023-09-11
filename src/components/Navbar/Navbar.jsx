@@ -186,7 +186,7 @@ const Navbar = () => {
         setIsHovered(true);
         setTimeout(() => {
             setNavOptions(value);
-        }, 300);
+        }, 200);
     };
 
     const handleMouseLeave = () => {
