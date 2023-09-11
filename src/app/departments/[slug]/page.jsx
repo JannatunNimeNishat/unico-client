@@ -8,7 +8,7 @@ import Link from 'next/link';
 import Button from '@/components/Button/Button';
 
 const getData = (value) => {
-    console.log(value);
+    // console.log(value);
     /* axios('/department/departments.json')
         .then((response) => {
             console.log(response.data);
@@ -20,7 +20,7 @@ const getData = (value) => {
     const slug_dept_info = {};
     slug_dept_info['department_info'] = department.filter(item => item.dept === value.toUpperCase());
     slug_dept_info['teachers_info'] = teachers.filter(item => item.dept === value.toUpperCase());
-    console.log(slug_dept_info);
+    // console.log(slug_dept_info);
     return slug_dept_info;
 
 }
