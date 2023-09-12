@@ -27,7 +27,8 @@ const getData = (value) => {
 
 
 const SingleDept = ({ params }) => {
-    const data = getData(params.slug)
+    const data = getData(params.slug);
+    // console.log('data ---------',params.slug);
     const { id, dept_name, dept, goals_and_objectives, mission, dept_head, eligibility_for_admission } = data.department_info[0] || [{}];
     // console.log(data);
     return (

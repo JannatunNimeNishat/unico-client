@@ -13,7 +13,7 @@ const getData = (value) => {
 
 const SingleTeacher = ({ params }) => {
     const data = getData(params.id);
-    console.log(data);
+    // console.log(data);
     const { name, img, dept_name, email, designation, qualification, courses, publications } = data[0] || [{}];
     return (
         <div className='mt-10 grid grid-cols-4 my-container gap-5 '>

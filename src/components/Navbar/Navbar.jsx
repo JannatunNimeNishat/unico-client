@@ -15,34 +15,29 @@ const Navbar = () => {
     const regulatoryBodies = [
         {
             id: 1,
-            href: '/board-of-trustees',
+            href: '/administration/board_of_trustees',
             text: 'Board of Trustees'
         },
         {
             id: 2,
-            href: '/syndicate-members',
+            href: '/administration/syndicate_members',
             text: 'Syndicate Members'
         },
         {
             id: 3,
-            href: '/board-of-trustees',
-            text: 'Board of Trustees'
-        },
-        {
-            id: 4,
-            href: '/academic-council',
+            href: '/administration/academic_council',
             text: 'Academic Council'
         },
-        {
-            id: 5,
-            href: '/finance-committee',
+        /* {
+            id: 4,
+            href: '/administration/finance_committee',
             text: 'Finance Committee'
         },
         {
-            id: 6,
-            href: '/discipline-committee',
+            id: 5,
+            href: '/administration/discipline_committee',
             text: 'Discipline Committee'
-        },
+        }, */
     ]
 
     const offices = [
