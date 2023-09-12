@@ -313,9 +313,9 @@ const Navbar = () => {
 
                         {/* Offices & Staff state */}
                         <li className="w-full flex items-center  py-2 text-sm cursor-pointer hover:text-[#9d2235]">
-                            <button className='w-full flex justify-between items-center'>
+                            <Link href={'/administration/officers_&_staff'} className='w-full flex justify-between items-center'>
                                 <span>Offices & Staff state</span>
-                            </button>
+                            </Link >
                         </li>
 
                     </ul>
