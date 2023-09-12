@@ -151,31 +151,34 @@ const Navbar = () => {
         },
         {
             id: 5,
-            href: '/admission/admission_procedure',
+            href: '#',
+            // href: '/admission/admission_procedure',
             text: 'admission Procedure',
         },
         {
             id: 6,
-            href: '/admission/semester_fees',
+            href: '#',
+            // href: '/admission/semester_fees',
             text: 'Semester Fees',
         },
         {
             id: 7,
-            href: '/admission/admission_cancel_policy',
+            href: '#',
+            // href: '/admission/admission_cancel_policy',
             text: 'Admission Cancel Policy',
         },
     ]
 
     const research = [
         {
-            id:1,
-            href:'/research/publications',
-            text:'publications'
+            id: 1,
+            href: '/research/publications',
+            text: 'publications'
         },
         {
-            id:2,
-            href:'/research/projects',
-            text:'projects'
+            id: 2,
+            href: '/research/projects',
+            text: 'projects'
         }
     ]
 
@@ -484,9 +487,9 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                    
-                 {/* Research */}
-                 <div className='  relative '
+
+                {/* Research */}
+                <div className='  relative '
                     onMouseEnter={() => handleMouseEnter(4)}
                     onMouseLeave={handleMouseLeave}
                 >
