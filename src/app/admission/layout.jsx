@@ -3,6 +3,7 @@ import RelatedLinks from '@/components/RelatedLinks/RelatedLinks';
 import React from 'react';
 
 const AdmissionLayout = ({ children }) => {
+   
     return (
         <div className='mt-10 my-container px-8  grid grid-cols-6 gap-10 '>
 
