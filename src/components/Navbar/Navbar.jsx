@@ -43,27 +43,29 @@ const Navbar = () => {
     const offices = [
         {
             id: 1,
-            href: '/vcs-office',
+            href: '/administration/offices/vcs-office',
             text: "VC'S Office",
         },
         {
             id: 2,
-            href: '/pro-vcs-office',
+            href: '/administration/offices/pro-vcs-office',
             text: "PRO-VC'S Office",
         },
         {
             id: 3,
-            href: '/office-of-the-treasurer',
+            href: '/administration/offices/office-of-the-treasurer',
             text: "Office of the Treasurer",
         },
         {
             id: 4,
-            href: '/office-of-the-registrar',
+            // href: '/office-of-the-registrar',
+            href: '#',
             text: "Office of the Registrar",
         },
         {
             id: 5,
-            href: '/controller-of-examination',
+            // href: '/controller-of-examination',
+            href: '#',
             text: "Controller of Examination",
         },
     ]

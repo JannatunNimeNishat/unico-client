@@ -1,28 +1,27 @@
 import React from 'react';
-
-import administration from '../../../../public/administration/administration.json';
-import Image from 'next/image';
+import offices from '../../../../../public/administration/offices.json'
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 const getData = (value) => {
-    return administration.filter(item => item.category == value)
+    return offices.filter(item => item.category == value)
 }
 
-const AdministrationOffice = ({ params }) => {
+const SingleOffice = ({ params }) => {
     const data = getData(params.slug);
-    // console.log(data);
+    console.log(data);
     return (
-
         <div className='mt-14 my-container px-8'>
 
             {
-                data[0].category === 'board_of_trustees' ? <h3 className='text-4xl text-center font-bold'>Board of Trustees</h3> : ''
+                data[0].category === 'vcs-office' ? <h3 className='text-4xl text-center font-bold uppercase'>Vice Chancellor's Office</h3> : ''
             }
             {
-                data[0].category === 'syndicate_members' ? <h3 className='text-4xl text-center font-bold'>Syndicate Members</h3> : ''
+                data[0].category === 'pro-vcs-office' ? <h3 className='text-4xl text-center font-bold uppercase'>Pro-VC'S Office</h3> : ''
             }
             {
-                data[0].category === 'academic_council' ? <h3 className='text-4xl text-center font-bold'>Academic Council</h3> : ''
+                data[0].category === 'office-of-the-treasurer' ? <h3 className='text-4xl text-center font-bold uppercase'>OFFICE OF THE TREASURER</h3> : ''
             }
 
             <div
@@ -45,7 +44,9 @@ const AdministrationOffice = ({ params }) => {
 
             </div>
 
-            <div className='grid grid-cols-3 mt-5'>
+            <div className={`grid  mt-5 
+            ${data.length <= 3 ? 'grid-cols-2 ': 'grid-cols-3'}
+            `}>
                 {
                     data.slice(1,5).map(singleData => <div
                     key={singleData.id}
@@ -74,4 +75,4 @@ const AdministrationOffice = ({ params }) => {
     );
 };
 
-export default AdministrationOffice;
+export default SingleOffice;

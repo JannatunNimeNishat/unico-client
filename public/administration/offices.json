@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "name": "Dr Wonderlane",
+        "img": "https://i.ibb.co/chKjMfL/wonderlane.jpg",
+        "dept": "CSE",
+        "dept_name": "Computer Science and Engineering",
+        "email": "vc@example.com",
+        "qualification": "Ph.D. in Computer Science",
+        "designation": "Vice Chancellor",
+        "category": "vcs-office"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Yogendra Singh",
+        "img": "https://i.ibb.co/sQkr5Gc/yogendra-singh.jpg",
+        "dept": "CSE",
+        "dept_name": "Computer Science and Engineering",
+        "email": "pstovc@example.com",
+        "qualification": "Ph.D. in Computer Science",
+        "designation": "PS to VC",
+        "category": "vcs-office"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Alex Starnes",
+        "img": "https://i.ibb.co/60BNQZG/alex-starnes.jpg",
+        "dept": "CSE",
+        "dept_name": "Computer Science and Engineering",
+        "email": "pstovc@example.com",
+        "qualification": "M.Sc. in Computer Science",
+        "designation": "PS to VC",
+        "category": "vcs-office"
+    },
+    {
+        "id": 4,
+        "name": "Ali Morshedlou",
+        "img": "https://i.ibb.co/BrGDKYf/ali-morshedlou.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "ali_morshedlou@example.com",
+        "qualification": "Ph.D. in Industrial Engineering",
+        "designation": "Pro-VC",
+        "category": "pro-vcs-office"
+    },
+    {
+        "id": 5,
+        "name": "Amy Hirschi",
+        "img": "https://i.ibb.co/7RWxgq5/amy-hirschi.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "amy-hirschi@example.com",
+        "qualification": "M.Sc. in Industrial Engineering",
+        "designation": "PS to Pro-VC",
+        "category": "pro-vcs-office"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Carlos Gil",
+        "img": "https://i.ibb.co/5k3Ctzw/carlos-gil.jpg",
+        "dept": "IPE",
+        "dept_name": "Industrial and Production Engineering",
+        "email": "carlos-gil@example.com",
+        "qualification": "Ph.D. in Industrial Engineering",
+        "designation": "PS to Pro-VC",
+        "category": "pro-vcs-office"
+    },
+    {
+        "id": 7,
+        "name": "Dr. Christian Buehner",
+        "img": "https://i.ibb.co/1fRymYZ/christian-buehner.jpg",
+        "dept": "ICT",
+        "dept_name": "Information and Communication Technology",
+        "email": "christian-buehner@example.com",
+        "qualification": "Ph.D. in Information Technology",
+        "designation": "Treasurer (Additional Charge)",
+        "category": "office-of-the-treasurer"
+    },
+    {
+        "id": 8,
+        "name": "Christina",
+        "img": "https://i.ibb.co/9HVsZ3J/christina.jpg",
+        "dept": "ICT",
+        "dept_name": "Information and Communication Technology",
+        "email": "christina@example.com",
+        "qualification": "Ph.D. in Information Technology",
+        "designation": "Director (Finance)",
+        "category": "office-of-the-treasurer"
+    },
+    {
+        "id": 9,
+        "name": "Clay Elliot",
+        "img": "https://i.ibb.co/ykWrn0f/clay-elliot.jpg",
+        "dept": "ICT",
+        "dept_name": "Information and Communication Technology",
+        "email": "clay-elliot@example.com",
+        "qualification": "M.Sc. in Information Technology",
+        "designation": "Deputy Director (Finance & Accounts)",
+        "category": "office-of-the-treasurer"
+    },
+    {
+        "id": 10,
+        "name": "Dr. Christina Wocintech",
+        "img": "https://i.ibb.co/xg7Ps3x/christina-wocintech.jpg",
+        "dept": "EEE",
+        "dept_name": "Electrical and Electronic Engineering",
+        "email": "christina-wocintech@example.com",
+        "qualification": "Ph.D. in Electrical Engineering",
+        "designation": "Accountant",
+        "category": "office-of-the-treasurer"
+    },
+    {
+        "id": 11,
+        "name": "Dr. Foto Sushi",
+        "img": "https://i.ibb.co/qggWTzH/foto-sushi.jpg",
+        "dept": "EEE",
+        "dept_name": "Electrical and Electronic Engineering",
+        "email": "foto-sushi@example.com",
+        "qualification": "Ph.D. in Electrical Engineering",
+        "designation": "Accountant",
+        "category": "office-of-the-treasurer"
+    },
+    {
+        "id": 12,
+        "name": "Harps Joseph",
+        "img": "https://i.ibb.co/wNm5zmG/harps-joseph.jpg",
+        "dept": "EEE",
+        "dept_name": "Electrical and Electronic Engineering",
+        "email": "harps-joseph@example.com",
+        "qualification": "M.Sc. in Electrical Engineering",
+        "designation": "Member",
+        "category": "academic_council"
+    },
+    {
+        "id": 13,
+        "name": "Professor Smith",
+        "img": "https://i.ibb.co/7CmZQQH/haydn-golden.jpg",
+        "dept": "ME",
+        "dept_name": "Department of Mechanical Engineering",
+        "email": "prof.smith@example.com",
+        "qualification": "Ph.D. in Mechanical Engineering",
+        "designation": "Member",
+        "category": "academic_council"
+    },
+    {
+        "id": 14,
+        "name": "Dr. Taylor Brown",
+        "img": "https://i.ibb.co/CbCFJ2M/stephanie-liverani.jpg",
+        "dept": "ME",
+        "dept_name": "Department of Mechanical Engineering",
+        "email": "dr.brown@example.com",
+        "qualification": "Ph.D. in Mechanical Engineering",
+        "designation": "Member",
+        "category": "academic_council"
+    }
+    
+]
