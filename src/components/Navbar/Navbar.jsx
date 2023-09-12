@@ -131,37 +131,37 @@ const Navbar = () => {
     const admission = [
         {
             id: 1,
-            href: '/admission/apply-online-instruction',
+            href: '/admission/apply_online_instruction',
             text: 'Apply Online Instruction',
         },
         {
             id: 2,
-            href: '/admission/admission-notice',
+            href: '/admission/admission_notice',
             text: 'Admission Notice',
         },
         {
             id: 3,
-            href: '/admission/program-offering',
+            href: '/admission/program_offering',
             text: 'Offered Program',
         },
         {
             id: 4,
-            href: '/admission/admission-requirment',
+            href: '/admission/admission_requirment',
             text: 'Admission Requirments',
         },
         {
             id: 5,
-            href: '/admission/admission-procedure',
+            href: '/admission/admission_procedure',
             text: 'admission Procedure',
         },
         {
             id: 6,
-            href: '/admission/semester-fees',
+            href: '/admission/semester_fees',
             text: 'Semester Fees',
         },
         {
             id: 7,
-            href: '/admission/admission-cancel-policy',
+            href: '/admission/admission_cancel_policy',
             text: 'Admission Cancel Policy',
         },
     ]
