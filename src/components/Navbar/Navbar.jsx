@@ -232,7 +232,7 @@ const Navbar = () => {
 
                 <div className='flex gap-5'>
                     <Link href='/login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>
-                    <Link href='/apply_now' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>apply Now</Link>
+                    <Link href='/apply_online' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>apply Online</Link>
                 </div>
 
             </div>
