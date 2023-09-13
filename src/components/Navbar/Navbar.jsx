@@ -247,9 +247,9 @@ const Navbar = () => {
 
                     {
                         user ?
-                        <p onClick={handleLogout} className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>logout</p>
+                        <p onClick={handleLogout} className=' cursor-pointer font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>logout</p>
                             :
-                            <Link href=' / login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>
+                            <Link href=' /login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>
                     }
 
                     <Link href='/apply_online' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>apply Online</Link>
