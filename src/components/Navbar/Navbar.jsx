@@ -6,6 +6,7 @@ import React, { useState } from 'react'
 import toast from 'react-hot-toast';
 import { AiOutlineDown, AiOutlineRight } from "react-icons/ai";
 import { useRouter } from 'next/navigation';
+import useCheckRole from '@/hooks/useCheckRole';
 const Navbar = () => {
 
     const [navOptions, setNavOptions] = useState(0);
@@ -20,13 +21,23 @@ const Navbar = () => {
 
     // auth
     const { user, logout } = useAuth();
-    const { uid, displayName, photoURL,email } = user || {};
-console.log(user);
+    const { uid, displayName, photoURL, email } = user || {};
+
+    // check user role
+    const [role, roleLoading] = useCheckRole();
+    // console.log(role, roleLoading);
+
+
+
+    // console.log(user);
     const handleLogout = async () => {
         await logout();
         toast.success("Successfully logout")
         push('/')
     }
+
+
+
 
 
     const regulatoryBodies = [
@@ -248,12 +259,22 @@ console.log(user);
                 </div>
 
                 <div className='flex gap-5'>
-
+                    {
+                        role === 'student' &&
+                        <Link
+                            href={`/dashboard/studentDashboard`} className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>{email}</Link>
+                    }
+                    {
+                        role === 'admin' &&
+                        <Link
+                            href={`/dashboard/adminDashboard`} className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>{email}</Link>
+                    }
                     {
                         user ?
                             <>
                                 <p onClick={handleLogout} className=' cursor-pointer font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>logout</p>
-                                <Link href='/dashboard/studentDashboard' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>{email}</Link>
+
+
                             </>
                             :
                             <Link href=' /login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>

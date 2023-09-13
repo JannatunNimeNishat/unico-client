@@ -3,7 +3,7 @@ import React from 'react';
 const DashBoardLayout = ({children}) => {
     return (
         <div>
-            DashBoardLayout
+            {/* DashBoardLayout */}
             {children}
         </div>
     );
