@@ -44,7 +44,7 @@ const ApplyOnlinePage = () => {
 
                 {/* <Link href={`#`} className='bg-[#9d2235] text-white font-bold px-5 py-3 mt-10'>I Agree and Apply Now</Link> */}
                 <div className='w-1/2 mx-auto '>
-                    <Link href={`#`} className='border  mx-auto'>
+                    <Link href={`/apply_online/online_form`} className='border  mx-auto'>
 
                         <Button btn_text={'I Agree and Apply Now'} />
                     </Link>
