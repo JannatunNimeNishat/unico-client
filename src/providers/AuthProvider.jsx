@@ -22,9 +22,11 @@ const AuthProvider = ({ children }) => {
     }
 
     const profileUpdate = async (updateUser = {}) => {
+        // console.log(updateUser);
         setLoading(true);
+        // await updateProfile(auth.currentUser, updateProfile);
+        // setUser((preUser) => ({ ...preUser, ...updateUser }))
         await updateProfile(auth.currentUser, updateProfile);
-        setUser((preUser) => ({ ...preUser, ...updateUser }))
     }
 
 

@@ -3,11 +3,12 @@ import useAuth from '@/hooks/useAuth';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
+import { useRouter } from 'next/navigation';
 const LoginPage = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm()
     const { signIn } = useAuth();
-
+    const { push } = useRouter();
     const onSubmit = async (data) => {
         const { email, password } = data;
         // console.log(data);
@@ -16,6 +17,7 @@ const LoginPage = () => {
             const user = await signIn(email, password)
             toast.dismiss(tostId);
             toast.success("user singed in successfully")
+            push('/dashboard/studentDashboard');
         } catch (error) {
             toast.dismiss(tostId);
             toast.error(error.message || "user not singed")

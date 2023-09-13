@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import toast from 'react-hot-toast';
 import { AiOutlineDown, AiOutlineRight } from "react-icons/ai";
+import { useRouter } from 'next/navigation';
 const Navbar = () => {
 
     const [navOptions, setNavOptions] = useState(0);
@@ -15,13 +16,16 @@ const Navbar = () => {
 
     const [isHoveredSubOption, setIsHoveredSubOption] = useState(false);
 
+    const { push } = useRouter();
+
     // auth
-    const { user,logout } = useAuth();
-    const { uid, displayName, photoURL } = user || {};
-    console.log(user);
-    const handleLogout = async()=>{
-       await logout();
-       toast.success("Successfully logout")
+    const { user, logout } = useAuth();
+    const { uid, displayName, photoURL,email } = user || {};
+console.log(user);
+    const handleLogout = async () => {
+        await logout();
+        toast.success("Successfully logout")
+        push('/')
     }
 
 
@@ -247,7 +251,10 @@ const Navbar = () => {
 
                     {
                         user ?
-                        <p onClick={handleLogout} className=' cursor-pointer font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>logout</p>
+                            <>
+                                <p onClick={handleLogout} className=' cursor-pointer font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>logout</p>
+                                <Link href='/dashboard/studentDashboard' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>{email}</Link>
+                            </>
                             :
                             <Link href=' /login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>
                     }

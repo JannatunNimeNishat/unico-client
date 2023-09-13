@@ -17,7 +17,10 @@ const OnlineFormPage = () => {
         createUser(data.applicant_email, data.mobile_num)
             .then(result => {
                 // console.log(result.user);
-
+                console.log('check', {
+                    displayName: data.applicant_name,
+                    photoURL: data.applicant_photoURL,
+                });
                 profileUpdate({
                     displayName: data.applicant_name,
                     photoURL: data.applicant_photoURL,
@@ -34,7 +37,7 @@ const OnlineFormPage = () => {
                             .then(res => {
                                 console.log('new user', res.data);
                                 // redirect('/')
-                                push('/');
+                                push('/dashboard/studentDashboard');
                             })
                     })
                     .then(error => {
