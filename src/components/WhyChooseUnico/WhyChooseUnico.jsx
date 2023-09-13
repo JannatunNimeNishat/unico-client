@@ -11,7 +11,7 @@ function WhyChooseUnico() {
         <div className='mt-[120px] my-container'>
             <div className='text-center'>
                 <h3 className='text-4xl font-bold pt-8'>Why Choose UNICO</h3>
-                <div className='h-1 w-[68px] bg-[#ae152d] mt-[30px] mb-[20px] mx-auto' />
+                <div className='h-1 w-[78px] bg-[#ae152d] mt-[30px] mb-[20px] mx-auto' />
                 <p className='text-gray-500 '>We Are One of The Largest, Most Diverse Universities in The USA</p>
             </div>
 

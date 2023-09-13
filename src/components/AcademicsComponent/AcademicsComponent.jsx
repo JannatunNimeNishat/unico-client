@@ -87,7 +87,7 @@ const AcademicsComponent = () => {
 
 
     return (
-        <div className='my-28 my-container grid grid-cols-6 gap-8'>
+        <div className='my-20 my-container grid grid-cols-6 gap-8'>
             <div className='col-span-4  px-5 py-5'>
                 <h3 className='text-3xl font-bold'>Academics</h3>
                 <div className='h-1 w-[68px] bg-[#ae152d] mt-[15px] mb-[20px] ' />
@@ -114,23 +114,6 @@ const AcademicsComponent = () => {
                         </div>
                         )
                     }
-
-
-
-                    {/* <div className='border shadow-2xl flex items-center justify-evenly py-4'>
-                        <Image height={170} width={170} src={'/academic/bba.jpg'} alt='' />
-                        <div>
-                            <h3 className='font-bold'>FACULTY OF ELECTRICAL AND COMPUTER ENGINEERING (FECE)</h3>
-                            <ul className='list-disc px-8 space-y-1 mt-2'>
-                                <li className='hover:text-[#ae152d] cursor-pointer'>Computer Science and Engineering</li>
-                                <li className='hover:text-[#ae152d] cursor-pointer'>Computer Science and Engineering</li>
-                                <li className='hover:text-[#ae152d] cursor-pointer'>Computer Science and Engineering</li>
-                                <li className='hover:text-[#ae152d] cursor-pointer'>Computer Science and Engineering</li>
-                            </ul>
-                        </div>
-                    </div>
- */}
-
 
                 </div>
             </div>
