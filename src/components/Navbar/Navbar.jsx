@@ -1,9 +1,12 @@
 "use client"
+import useAuth from '@/hooks/useAuth';
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import toast from 'react-hot-toast';
 import { AiOutlineDown, AiOutlineRight } from "react-icons/ai";
 const Navbar = () => {
+
     const [navOptions, setNavOptions] = useState(0);
 
     const [isHovered, setIsHovered] = useState(false);
@@ -11,6 +14,16 @@ const Navbar = () => {
     const [subOptions, setSubOptions] = useState(0);
 
     const [isHoveredSubOption, setIsHoveredSubOption] = useState(false);
+
+    // auth
+    const { user,logout } = useAuth();
+    const { uid, displayName, photoURL } = user || {};
+    console.log(user);
+    const handleLogout = async()=>{
+       await logout();
+       toast.success("Successfully logout")
+    }
+
 
     const regulatoryBodies = [
         {
@@ -231,14 +244,21 @@ const Navbar = () => {
                 </div>
 
                 <div className='flex gap-5'>
-                    <Link href='/login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>
+
+                    {
+                        user ?
+                        <p onClick={handleLogout} className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>logout</p>
+                            :
+                            <Link href=' / login' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>login</Link>
+                    }
+
                     <Link href='/apply_online' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>apply Online</Link>
                 </div>
 
-            </div>
+            </div >
 
             {/* bottom navbar */}
-            <div className='my-bg-color text-white h-[60px] mt-[10px] flex gap-12 items-center justify-center'>
+            < div className='my-bg-color text-white h-[60px] mt-[10px] flex gap-12 items-center justify-center' >
                 <div>
                     <Link className='' href='/'>Home</Link>
                 </div>
@@ -526,7 +546,7 @@ const Navbar = () => {
                     <Link className='' href='/contact'>Contact</Link>
                 </div>
 
-            </div>
+            </div >
 
 
 
