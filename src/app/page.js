@@ -1,3 +1,4 @@
+import AcademicsComponent from '@/components/AcademicsComponent/AcademicsComponent'
 import Banner from '@/components/Banner/Banner'
 import WelcomeToUnico from '@/components/WelcomeToUnico/WelcomeToUnico'
 import WhyChooseUnico from '@/components/WhyChooseUnico/WhyChooseUnico'
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner/>
       <WelcomeToUnico/>
       <WhyChooseUnico/>
+      <AcademicsComponent/>
     </div>
   )
 }
