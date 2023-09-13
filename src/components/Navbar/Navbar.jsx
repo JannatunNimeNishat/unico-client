@@ -241,11 +241,11 @@ const Navbar = () => {
             <div className='my-container h-[123px]  hidden lg:flex items-center justify-between  '>
 
                 <div className='flex gap-5'>
-                    <Link href='/student' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>students</Link>
-                    <Link href='/staff' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>staffs</Link>
-                    <Link href='/alumni' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>alumni</Link>
-                    <Link href='/visit' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>visit</Link>
-                    <Link href='/media' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>media</Link>
+                    <Link href='/information/students' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>students</Link>
+                    <Link href='/information/staffs' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>staffs</Link>
+                    <Link href='/information/alumni' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>alumni</Link>
+                    <Link href='/information/visit' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>visit</Link>
+                    <Link href='/information/media' className=' font-semibold  text-gray-500 hover:text-[#9d2235] uppercase'>media</Link>
                 </div>
 
                 <div className='flex items-center gap-3 -ml-20'>
