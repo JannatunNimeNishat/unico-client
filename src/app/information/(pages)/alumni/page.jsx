@@ -54,7 +54,7 @@ const AlumniPage = () => {
                     <div className='h-1 w-[150px] mx-auto  bg-[#ae152d] mt-[12px] mb-[20px] ' />
                     <h3 className='text-center text-xl lg:mt-5 mb-3 lg:mb-10 text-gray-500'>What's happening in UniCamp</h3>
 
-                    {/* slider cards */}
+                    {/* news and blogs */}
                     <div className='py-3 '>
                         <Swiper
                             slidesPerView={3}
@@ -108,15 +108,40 @@ const AlumniPage = () => {
                             }
 
                         </Swiper>
+
                         <div className='w-full flex justify-center mt-8'>
                             <Link href={'#'}>
                                 <Button btn_text={'View all news'} isArrowImg={true} />
                             </Link>
                         </div>
 
+
+                    </div>
+                </div>
+            </div>
+
+
+            {/* global alumni events */}
+            <div className='mt-28 my-container flex '>
+                {/* 1st */}
+                <div className=' h-[440px] w-[600px] border bg-white shadow-lg z-10 mt-10  '>
+                    <div className=' mx-6 py-6 flex flex-col justify-center  space-y-8 mt-10 '>
+                        <div className='mt-5'>
+                            <h3 className='text-4xl font-bold text-center'>Global Alumni Events</h3>
+                            <div className='h-1 w-[100px] mx-auto  bg-[#ae152d] mt-[12px] mb-[20px] ' />
+                        </div>
+                        <p className='text-gray-500 text-center  '>From virtual to in-person, the Alumni Office organizes exclusive events through the year and around the world. You can also find information on University wide events.</p>
+                        <div className='w-full flex justify-center mt-8'>
+                            <Link href={'#'}>
+                                <Button btn_text={'View all news'} isArrowImg={true} />
+                            </Link>
+                        </div>
                     </div>
 
-
+                </div>
+                {/* 2nd */}
+                <div className=' -ml-24 -z-10' >
+                    <Image height={500} width={850} src={'/alumni/global_alumni_events.jpg'} alt=''></Image>
                 </div>
             </div>
         </div>
