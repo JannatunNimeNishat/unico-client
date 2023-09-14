@@ -1,0 +1,246 @@
+[
+    {
+        "_id": 1,
+        "post_img": "https://i.ibb.co/f4mbKxR/Exciting-Alumni-Reunion.jpg",
+        "post_title": "Exciting Alumni Reunion",
+        "category": "ALUMNI",
+        "type": "SPOTLIGHT",
+        "owner_name": "John Doe",
+        "owner_img": "https://i.ibb.co/VBfVkZt/c2.jpg",
+        "owner_designation": "Alumni Association President",
+        "date": "2023-09-15",
+        "comments": [
+            {
+                "id": 1,
+                "email": "user1@example.com",
+                "text": "Great event!"
+            }
+        ],
+        "post_details": "The recent alumni reunion held on campus was truly exciting. Alumni from various generations gathered to reminisce about their college days, share their success stories, and strengthen their ties with the alma mater. The event featured engaging discussions, live music performances, and a delicious banquet. It was a heartwarming experience that showcased the strong bond among our alumni community. #Alumni #Reunion",
+        "hash_tags": [
+            "Alumni",
+            "Reunion"
+        ]
+    },
+    {
+        "_id": 2,
+        "post_img": "https://i.ibb.co/kQbVNFH/Student-Lifeinthe-Digital-Age.jpg",
+        "post_title": "Student Life in the Digital Age",
+        "category": "STUDENT LIFE",
+        "type": "RESEARCH",
+        "owner_name": "Jane Smith",
+        "owner_img": "https://i.ibb.co/YkLPz16/c3.jpg",
+        "owner_designation": "Student Researcher",
+        "date": "2023-09-14",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user2@example.com",
+                "text": "Interesting findings!"
+            }
+        ],
+        "post_details": "A recent research study delved into the unique challenges and opportunities faced by students in the digital age. The study explored the impact of technology on students' academic performance, social lives, and mental health. It revealed valuable insights into how students navigate this digital landscape, offering guidance for educators and parents. #StudentLife #Research",
+        "hash_tags": [
+            "StudentLife",
+            "Research"
+        ]
+    },
+    {
+        "_id": 3,
+        "post_img": "https://i.ibb.co/MCQwYNF/Career-Advicefor-Recent-Graduates.jpg",
+        "post_title": "Career Advice for Recent Graduates",
+        "category": "CAREER",
+        "type": "ADMISSION",
+        "owner_name": "Emily Johnson",
+        "owner_img": "https://i.ibb.co/fMpNJcT/niko-Romito.jpg",
+        "owner_designation": "Career Counselor",
+        "date": "2023-09-13",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user3@example.com",
+                "text": "This is helpful!"
+            }
+        ],
+        "post_details": "Are you a recent graduate stepping into the professional world? This article offers valuable career advice tailored to your needs. From crafting an impressive resume to acing interviews and building a network, we've got you covered. Start your career journey with confidence and success. #CareerAdvice #Admission",
+        "hash_tags": [
+            "CareerAdvice",
+            "Admission"
+        ]
+    },
+    {
+        "_id": 4,
+        "post_img": "https://i.ibb.co/KXmG9Cs/Research-Breakthroughin-Medicine.jpg",
+        "post_title": "Research Breakthrough in Medicine",
+        "category": "RESEARCH",
+        "type": "RESEARCH",
+        "owner_name": "Dr. Sarah Johnson",
+        "owner_img": "https://italian-delicacy.web.app/assets/c5-c931c37b.jpg",
+        "owner_designation": "Professor of Medicine",
+        "date": "2023-09-12",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user4@example.com",
+                "text": "Impressive work!"
+            }
+        ],
+        "post_details": "Our research team has made a significant breakthrough in the field of medicine. We've discovered a potential treatment for a rare genetic disorder that affects thousands of people worldwide. This discovery brings hope to patients and their families, and we're excited to move forward with clinical trials. #MedicalResearch #Breakthrough",
+        "hash_tags": [
+            "MedicalResearch",
+            "Breakthrough"
+        ]
+    },
+    {
+        "_id": 5,
+        "post_img": "https://i.ibb.co/rQQ0xtz/Student-Success-Story-From-Internto-CEO.jpg",
+        "post_title": "Student Success Story: From Intern to CEO",
+        "category": "STUDENT LIFE",
+        "type": "STUDENT STORY",
+        "owner_name": "Alex Rodriguez",
+        "owner_img": "https://italian-delicacy.web.app/assets/c4-df1edc13.jpg",
+        "owner_designation": "Alumnus and CEO",
+        "date": "2023-09-11",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user5@example.com",
+                "text": "Inspiring journey!"
+            }
+        ],
+        "post_details": "Meet Sarah, an alumna who started as an intern at our institution and has now become the CEO of a successful tech startup. Her journey from the classroom to the boardroom is a testament to the transformative power of education and determination. Read her inspiring story. #StudentSuccess #AlumniStory",
+        "hash_tags": [
+            "StudentSuccess",
+            "AlumniStory"
+        ]
+    },
+    {
+        "_id": 6,
+        "post_img": "https://i.ibb.co/Z83Dd9T/Admissions-Openfor-Fall2024.jpg",
+        "post_title": "Admissions Open for Fall 2024",
+        "category": "ADMISSION",
+        "type": "ADMISSION",
+        "owner_name": "Admissions Office",
+        "owner_img": "https://italian-delicacy.web.app/assets/c1-c88f6e61.jpg",
+        "owner_designation": "Admissions Coordinator",
+        "date": "2023-09-10",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user6@example.com",
+                "text": "Exciting news!"
+            }
+        ],
+        "post_details": "We are pleased to announce that admissions for the Fall 2024 semester are now open! Whether you're a prospective undergraduate or graduate student, we welcome your applications. Join our vibrant academic community and embark on a journey of knowledge and growth. #Admissions #Fall2024",
+        "hash_tags": [
+            "Admissions",
+            "Fall2024"
+        ]
+    },
+    {
+        "_id": 7,
+        "post_img": "https://i.ibb.co/09xppPW/Outstanding-Faculty-Member.jpg",
+        "post_title": "Outstanding Faculty Member",
+        "category": "STUDENT LIFE",
+        "type": "SPOTLIGHT",
+        "owner_name": "Student Council",
+        "owner_img": "https://i.ibb.co/VBfVkZt/c2.jpg",
+        "owner_designation": "Student Representatives",
+        "date": "2023-09-09",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user7@example.com",
+                "text": "Well-deserved recognition!"
+            }
+        ],
+        "post_details": "In our latest spotlight feature, we highlight Professor James Smith, an outstanding faculty member known for his dedication to teaching and research. Professor Smith's contributions to our institution have made a lasting impact on students and the academic community. Read more about his achievements. #Spotlight #Faculty",
+        "hash_tags": [
+            "Spotlight",
+            "Faculty"
+        ]
+    },
+    {
+        "_id": 8,
+        "post_img": "https://i.ibb.co/1q0YhdW/Exploring-New-Frontiersin-Space.jpg",
+        "post_title": "Exploring New Frontiers in Space",
+        "category": "RESEARCH",
+        "type": "RESEARCH",
+        "owner_name": "Dr. Michael Anderson",
+        "owner_img": "https://italian-delicacy.web.app/assets/c4-df1edc13.jpg",
+        "owner_designation": "Astrophysicist",
+        "date": "2023-09-08",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user8@example.com",
+                "text": "Fascinating discoveries!"
+            }
+        ],
+        "post_details": "Our research team has been at the forefront of space exploration, uncovering new mysteries of the cosmos. From studying distant galaxies to analyzing exoplanets, we continue to push the boundaries of human knowledge. Join us in this exciting journey through the cosmos. #SpaceExploration #Astrophysics",
+        "hash_tags": [
+            "SpaceExploration",
+            "Astrophysics"
+        ]
+    },
+    {
+        "_id": 9,
+        "post_img": "https://i.ibb.co/09xppPW/Outstanding-Faculty-Member.jpg",
+        "post_title": "Exciting Alumni Reunion",
+        "category": "ALUMNI",
+        "type": "SPOTLIGHT",
+        "owner_name": "John Doe",
+        "owner_img": "https://italian-delicacy.web.app/assets/c5-c931c37b.jpg",
+        "owner_designation": "Alumni Association President",
+        "date": "2023-09-15",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user1@example.com",
+                "text": "Great event!"
+            }
+        ],
+        "post_details": "The recent alumni reunion held on campus was truly exciting. Alumni from various generations gathered to reminisce about their college days, share their success stories, and strengthen their ties with the alma mater. The event featured engaging discussions, live music performances, and a delicious banquet. It was a heartwarming experience that showcased the strong bond among our alumni community. #Alumni #Reunion",
+        "hash_tags": ["Alumni", "Reunion"]
+    },
+    {
+        "_id": 10,
+        "post_img": "https://i.ibb.co/kQbVNFH/Student-Lifeinthe-Digital-Age.jpg",
+        "post_title": "Celebrating Success",
+        "category": "ALUMNI",
+        "type": "SPOTLIGHT",
+        "owner_name": "Mary Johnson",
+        "owner_img": "https://i.ibb.co/fMpNJcT/niko-Romito.jpg",
+        "owner_designation": "Successful Entrepreneur",
+        "date": "2023-09-07",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user9@example.com",
+                "text": "Inspiring journey!"
+            }
+        ],
+        "post_details": "In this edition of Alumni Spotlight, we celebrate the remarkable journey of Mary Johnson, a distinguished alumna who has achieved great success in the business world. After graduating from our institution, Mary founded her own tech company, which has since become a global leader in innovation. Her story serves as an inspiration to aspiring entrepreneurs and showcases the potential of our graduates. #AlumniSpotlight #SuccessStory",
+        "hash_tags": ["AlumniSpotlight", "SuccessStory"]
+    },
+    {
+        "_id": 11,
+        "post_img": "https://i.ibb.co/Z83Dd9T/Admissions-Openfor-Fall2024.jpg",
+        "post_title": "Alumni Achievements in the Arts",
+        "category": "ALUMNI",
+        "type": "SPOTLIGHT",
+        "owner_name": "David Smith",
+        "owner_img": "https://i.ibb.co/VBfVkZt/c2.jpg",
+        "owner_designation": "Art Curator",
+        "date": "2023-09-06",
+        "comments": [
+            {
+                "id": "1",
+                "email": "user10@example.com",
+                "text": "Amazing talent!"
+            }
+        ],
+        "post_details": "Our alumni continue to make waves in the world of arts. From renowned painters to award-winning filmmakers, our graduates have achieved excellence in various creative fields. In this spotlight feature, we delve into the achievements of our alumni artists, celebrating their contributions to the cultural landscape. Their work continues to inspire and enrich our society. #AlumniAchievements #Arts",
+        "hash_tags": ["AlumniAchievements", "Arts"]
+    }
+]
