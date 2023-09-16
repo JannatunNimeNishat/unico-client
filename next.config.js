@@ -8,7 +8,8 @@ module.exports = {
 
             "i.ibb.co",
             "ibb.co",
-            "images.unsplash.com"
+            "images.unsplash.com",
+            "swiperjs.com"
         ],
     },
 
