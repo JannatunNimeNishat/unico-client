@@ -18,7 +18,7 @@ import Button from '@/components/Button/Button';
 const VisitPage = () => {
     return (
         <div>
-            {/*  */}
+            {/* banner/ slider  */}
             <>
                 <Swiper
                     spaceBetween={30}
