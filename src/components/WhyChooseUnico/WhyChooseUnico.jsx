@@ -49,7 +49,7 @@ function WhyChooseUnico() {
                     </div>
                     <h3 className='text-2xl font-semibold mt-5'>Inspiring Student Life</h3>
                     <p className='my-4 px-8 text-gray-500'>Our residential system creates more opportunities for learning with peers and professors from different backgrounds.</p>
-                    <Link href='/' className='mx-auto mt-3'>
+                    <Link href='/inspiringStudentLife' className='mx-auto mt-3'>
                         <Button btn_text={'Read more'} btn_width={'200px'} isArrowImg={true} />
                     </Link>
                 </div>
